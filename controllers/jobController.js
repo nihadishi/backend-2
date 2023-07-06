@@ -25,7 +25,7 @@ const jobController = {
     Job.findByIdAndRemove(req.params.id)
       .then(() => {
         res.json({
-          msg: "Deleted Successfully",
+          msg: "Deleted",
         });
       })
       .catch((err) => {

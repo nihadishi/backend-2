@@ -1,6 +1,3 @@
-//title, summary, description, minSalary, maxSalary,
-///locations[]
-
 const { default: mongoose } = require("mongoose");
 
 const JobSchema = mongoose.Schema({
